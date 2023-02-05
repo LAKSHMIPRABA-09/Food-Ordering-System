@@ -1,0 +1,96 @@
+<html>
+<head>
+<img src="pizza1.jpg"width=100% height=65%/> 
+<title>Pizza palace</title>
+<style>
+body {
+  background-color:peachpuff;
+}
+</style>
+</head>
+<body>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+<h1 style="text-align:center;color:blue">WELCOME TO PIZZA PALACE</h1>
+<p>You may enjoy your order.</p>
+<table class="center">
+<tr>
+                <th>Varieties</th>
+		<th>Medium</th>
+		<th>Large</th>
+            </tr>
+<tr>
+                <td>Margherita</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Peppy Paneer</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Mexican Green Wave</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Moroccan Speice Pasta Pizza</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Veg Extravaganza</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Cheese N Corn</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+<tr>
+                <td>Indi Tandoori Paneer</td>
+                <td>Rs.99</td>
+                <td>Rs.199</td>
+            </tr>
+</table>
+<fieldset><legend><b>Order here</b></legend>
+<form>
+<p><lable for=n>Name:</lable>
+<input type=text id=n /></p>
+<p>Address<input type=text/></p>
+<p><label for="phone">Enter your phone number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></p>
+<p>Toppings :</p>
+<input type="checkbox" id="topping1" name="topping1" value="Onion">
+<label for="topping1">Onion</label><br>
+<input type="checkbox" id="topping2" name="topping2" value="Mushroom">
+<label for="topping2">Mushroom</label><br>
+<input type="checkbox" id="topping3" name="topping3" value="Broccoli">
+<label for="topping3"> Broccoli</label><br>
+<input type="checkbox" id="topping4" name="topping4" value="Corn">
+<label for="topping4"> Corn</label><br>
+<input type="checkbox" id="topping5" name="topping5" value="Capsicum">
+<label for="topping5"> Capsicum</label><br>
+<input type="checkbox" id="topping6" name="topping6" value="Cheese">
+<label for="topping6"> Cheese</label><br>
+<form>
+  <label for="quantity">Quantity
+  <input type="number" id="quantity" name="quantity" min="1" max="100">
+</form>
+<p><input type=submit value=Submit>
+<input type=reset value=Clear></p>
+</form>
+<marquee direction="right"behavior="alternate">Thank you</marquee>
+</body>
+</html>
